@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Leaflet */
+.leaflet-container { height: 100%; width: 100%; }
+.leaflet-popup-content { margin: 8px 12px; }
+
+/* Remove Vite defaults that fight Tailwind */
+body  { margin: 0; background: #f9fafb; }
+#root { width: 100%; text-align: left; }
